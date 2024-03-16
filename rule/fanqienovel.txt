@@ -1,6 +1,7 @@
 DOMAIN, p6-ad-sign.byteimg.com, REJECT
 DOMAIN, p9-ad-sign.byteimg.com, REJECT
-DOMAIN-SUFFIX, byteimg.com, REJECT
+# 杀敌一千自损一万，误伤太严重了
+;DOMAIN-SUFFIX, byteimg.com, REJECT
 DOMAIN, i.snssdk.com, REJECT
 DOMAIN, i-lq.snssdk.com, REJECT
 DOMAIN, dig.bdurl.net, REJECT
@@ -23,9 +24,10 @@ DOMAIN-SUFFIX, pglstatp-toutiao.com, REJECT
 DOMAIN-SUFFIX, byteorge.com, REJECT
 DOMAIN-SUFFIX, bytegoofy.com, REJECT
 DOMAIN-SUFFIX, bytedance.com, REJECT
-IP-CIDR, 49.71.37.101/32, no-resolve
-IP-CIDR, 117.71.105.23/32, no-resolve
-IP-CIDR, 218.94.207.205/32, no-resolve
-IP-CIDR, 117.92.229.188/32, no-resolve
-IP-CIDR, 101.36.166.16/32, no-resolve
-IP-CIDR, 180.96.2.114/32, no-resolve
+# 没有no-resolve规则，用direct代替
+IP-CIDR, 49.71.37.101/32, direct
+IP-CIDR, 117.71.105.23/32, direct
+IP-CIDR, 218.94.207.205/32, direct
+IP-CIDR, 117.92.229.188/32, direct
+IP-CIDR, 101.36.166.16/32, direct
+IP-CIDR, 180.96.2.114/32, direct
