@@ -53,6 +53,7 @@ PROCESS-NAME,com.mb.android
 
 # hxd-emby
 DOMAIN-SUFFIX,bili.rip
+DOMAIN-SUFFIX,as174.com
 # MisakaF_Emby
 DOMAIN-SUFFIX,aca.best
 DOMAIN-KEYWORD,misakaf
